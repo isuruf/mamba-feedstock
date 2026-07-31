@@ -1,5 +1,5 @@
 context:
-  version: "2.7.0.alpha0"
+  version: "2.9.0.rc0"
   build_number: 0
 
 recipe:
@@ -8,7 +8,7 @@ recipe:
 
 source:
   url: https://github.com/mamba-org/mamba/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 676bba8f9f643c4d0e733da78301e8575328e15b4c23171173091b64d93f15d9
+  sha256: 2cc16d2426210a0570ee74a42bfdf4b983961b3c6291f3092322077f5415110d
 
 build:
   number: ${{ build_number }}
